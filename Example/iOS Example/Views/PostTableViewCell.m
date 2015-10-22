@@ -25,11 +25,11 @@
 #import "Post.h"
 #import "User.h"
 
-#import "UIImageView+AFNetworking.h"
+@import AFNetworking;
 
 @implementation PostTableViewCell
 
-- (id)initWithStyle:(UITableViewCellStyle)style
+- (instancetype)initWithStyle:(UITableViewCellStyle)style
               reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
